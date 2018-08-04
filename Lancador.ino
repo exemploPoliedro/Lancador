@@ -11,7 +11,7 @@
 void motorLancar();
 
 // Função do LED
-void 
+void contarRegressivamente();
 
 void setup() {
   // put your setup code here, to run once:
