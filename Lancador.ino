@@ -14,11 +14,25 @@ void motorLancar();
 void contarRegressivamente();
 
 void setup() {
-  // put your setup code here, to run once:
+
+  // Inicializando as portas dos LEDs
+  pinMode(LED_1_PIN, OUTPUT);
+  pinMode(LED_2_PIN, OUTPUT);
+  pinMode(LED_3_PIN, OUTPUT);
+
+  // Inicializando as portas dos motores
+  pinMode(MOTOR_IN_1_PIN, OUTPUT);
+  pinMode(MOTOR_IN_2_PIN, OUTPUT);
+
+  // Inicializando a porta do botão
+  pinMode(BUTTON_PIN, INPUT);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
+  // Colocar aqui o código para reconhecer que o botão está pressionado
+  // Após ele ser pressionado,
+  // lembre-se de chamar as funções de contagem regressiva e lancamento
 
 }
