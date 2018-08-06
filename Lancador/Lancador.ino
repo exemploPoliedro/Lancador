@@ -25,7 +25,7 @@ void setup() {
   pinMode(MOTOR_IN_2_PIN, OUTPUT);
 
   // Inicializando a porta do botão
-  pinMode(BUTTON_PIN, INPUT);
+  pinMode(BUTTON_PIN, INPUT_PULLUP);
 
 }
 
@@ -34,5 +34,7 @@ void loop() {
   // Colocar aqui o código para reconhecer que o botão está pressionado
   // Após ele ser pressionado,
   // lembre-se de chamar as funções de contagem regressiva e lancamento
-
+if (digitalRead(BUTTON_PIN) == HIGH){
+  contarRegressivamente();
+  motorLancar();
 }
