@@ -5,7 +5,7 @@ void motorLancar() {
   
   digitalWrite(MOTOR_IN_1_PIN, LOW);
   digitalWrite(MOTOR_IN_2_PIN, HIGH);
-  delay(250);
+  delay(2000);
   digitalWrite(MOTOR_IN_1_PIN, HIGH);
   digitalWrite(MOTOR_IN_2_PIN, HIGH);
   
