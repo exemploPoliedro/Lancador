@@ -34,7 +34,7 @@ void loop() {
   // Colocar aqui o código para reconhecer que o botão está pressionado
   // Após ele ser pressionado,
   // lembre-se de chamar as funções de contagem regressiva e lancamento
-if (digitalRead(BUTTON_PIN) == HIGH){
+if (digitalRead(BUTTON_PIN) == LOW){
   contarRegressivamente();
   motorLancar();
 }
