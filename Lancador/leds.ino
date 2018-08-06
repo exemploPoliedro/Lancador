@@ -11,7 +11,7 @@ void contarRegressivamente() {
   digitalWrite(LED_3_PIN, HIGH);
   delay(1000);
   digitalWrite(LED_1_PIN, LOW);
-  digitalWrite(LED_2_PIN, LOw);
+  digitalWrite(LED_2_PIN, LOW);
   digitalWrite(LED_3_PIN, LOW);
   
   
